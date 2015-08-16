@@ -17,7 +17,31 @@ class ViewController: UIViewController {
         0.3:"Hey",
         0.4:"hey",
         0.5:"Hello",
-        0.6:"hey"
+        0.6:"hey",
+        1.1:"foo",
+        1.2:"here",
+        1.3:"Hey",
+        1.4:"YEAAAAAAAAAAAA",
+        1.5:"Hello",
+        1.6:"hey",
+        2.1:"FOOOOOOOOOOOOOOOO",
+        2.2:"here",
+        2.3:"Hey",
+        2.4:"qasdftgyhujkiolp;",
+        2.5:"Hello",
+        2.6:"hey",
+        3.1:"noconocc",
+        3.2:"here",
+        3.3:"noon",
+        3.4:"hey",
+        3.5:"Hello",
+        3.6:"hey",
+        4.1:"foo",
+        4.2:"KEY!!!!!!!!!!!!",
+        4.3:"Hey",
+        4.4:"hey",
+        4.5:"Hello",
+        4.6:"hey"
     ]
 
     override func viewDidLoad() {
@@ -33,17 +57,17 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
     }
     
-    var timer: Float = 0
-    var rows: [Bool] = [true,true,true,true]
+    var timer: Double = 0
+    var rows: [Bool] = [true,true,true,true,true,true,true,true]
     
     func searchComments(){
         println(timer)
-        println(items[timer])
-        if items[timer] != nil {
+        println(items[Float(timer)])
+        if items[Float(timer)] != nil {
             var i:Int
-            for i=0; i<4; i++ {
+            for i=0; i<8; i++ {
                 if rows[i] {
-                    instantiateText(items[timer]!, row: i)
+                    instantiateText(items[Float(timer)]!, row: i)
                     rows[i] = false
                     break
                 }else{
@@ -84,4 +108,3 @@ class ViewController: UIViewController {
 
 
 }
-
