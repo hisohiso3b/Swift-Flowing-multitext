@@ -1,8 +1,7 @@
 # Swift-Flowing-multitext
 Swiftで書かれた複数のテキストが右から左へ流れるサンプルです
 
-![iOS Simulator Screen Shot 2015.08.17 6.16.23.png](https://qiita-image-store.s3.amazonaws.com/0/62043/144c68f0-5678-7e54-c5aa-830afb3c7c76.png)
-![iOS Simulator Screen Shot 2015.08.17 6.16.24.png](https://qiita-image-store.s3.amazonaws.com/0/62043/29b70941-e200-1cd7-6ecd-6a9d9cd36f37.png)
+![名称未設定.png](https://qiita-image-store.s3.amazonaws.com/0/62043/751677f6-1551-7f0e-94cd-b3d1c0968f54.png)
 
 #Usage
 ViewDidLoadで0.1秒毎にitemsディクショナリ内のテキストを検索します。
