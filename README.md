@@ -10,5 +10,5 @@ ViewDidLoadで0.1秒毎にitemsディクショナリ内のテキストを検索�
 使い方はディクショナリを作るだけです。
 ディクショナリ内のキーバリューFloatが秒数でその秒数になると対応するStringがテキストラベルになって流れます。
 
-#Qiita
-http://qiita.com/hiso/items/38eb300dc263f01a2a6c
+#コメント付きViewController.Swift
+Qiita : http://qiita.com/hiso/items/38eb300dc263f01a2a6c
